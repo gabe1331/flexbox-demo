@@ -1,0 +1,28 @@
+/* base & reset styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+body * {
+    font-family: 'Open Sans';
+    /* contain element borders within their widths */
+    box-sizing: border-box;
+}
+/* parent & child styles */
+section, section div {
+    padding: 15px;
+}
+section {
+    border: 3px solid lightblue;
+}
+section > div {
+    border: 3px solid lightcoral;
+}
+/* flexbox stuff */
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+}
+.child {
+    width: 50%;
+}
